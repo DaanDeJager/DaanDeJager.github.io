@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: grey;
+  }
+  .port {
+    position: absolute;
+    top: 315px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    opacity: 0.8;
+  }
+  
+  div a {
+    color: black;
+  }
+  footer a {
+    text-align: center;
+    padding-left: 650px;
+  }
+  a {
+    padding-top: 24px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  nav {
+    padding-left: 115px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  ul li {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+  }
+  ul li:hover {
+    background-color: red;
+  }
+  ul li ul li {
+    display: none;
+  }
+  ul li:hover ul li {
+    display: block;
+  }
+  footer {
+    height: 50px;
+    width: 1920px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.8;
+  }
+  footer:hover {
+    background-color: red;
+  }
+  
+  .html1 {
+    border-radius: 25px;
+    width: 450px;
+    height: 240px;
+  }
+  
+  .project2 {
+    display: inline-block;
+  }
+  
+  .project {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 100px;
+    height: 1080px;
+    width: 400px;
+    display: flex;
+  }
+  
+  .text {
+    
+    width: 300px;
+  }
+  
+  h4 {
+    padding-left: 115px;
+    color: red;
+    opacity: 0.8;
+  }
+  .contact{
+    
+    color: grey;
+    background-color: black;
+    box-shadow: 1px black;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 17%;
+    top: 10px;
+
+
+
+
+
+
+
+  }
+  div li{
+
+
+
+
+  }
+  li a{
+    color: gray;
+
+
+
+  }
