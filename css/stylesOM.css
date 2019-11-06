@@ -18,7 +18,7 @@
   }
   footer a {
     text-align: center;
-    padding-left: 650px;
+    padding-left: 420px;
   }
   a {
     padding-top: 24px;
@@ -127,3 +127,10 @@
 
 
   }
+  .icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 100px;}

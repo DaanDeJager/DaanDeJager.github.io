@@ -2,14 +2,30 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+    padding-left: 120PX;
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: red;
+  opacity: .8;
+}
+</style>
+    <title>Home</title>
 </head>
 <body>
     <header>
         <nav>
+                <p id="today"></p>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projecten.html">Projecten</a></li>
@@ -17,23 +33,30 @@
                 <li><a href="nieuws.html">Nieuws</a></li>
                 <li><a href="over-mij.html">Over Mij</a>
                     <ul>
-                        <li><a>Mijn Werk</a></li>
+                        <li><a href="mijnwerk.html">Mijn Werk</a></li>
                     </ul>
                 </li>
                 <li><a href="vaardigheden.html">Vaardigheden</a></li>
             </ul>
         </nav>
     </header>
-        <div class="images">
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        
+    </div>
+
+    <div class="box"><h4 id="text"></h4><a id="textBIG">Hallo, Ik ben Daan ik ben een begginende programmeur en graphic designer. 
+            Ik doe een opleiding over Applicatie Ontwikkeling. Vind meer over mij op deze website. Veel Plezier!
+    </a>
+    <div class="images">
             <img src="images/image1.jpg" alt="image1">
             <img src="images/image2.png" alt="image1">
             <img src="images/image3.png" alt="image1">
-        </div>
-    </div>
-
-    <div class="box"><h3>Welkom!</h3><a>Hallo, Ik ben Daan ik ben een begginende programmeur en graphic designer. 
-        Ik doe een opleiding over Applicatie Ontwikkeling. Vind meer over mij op deze website. Veel Plezier!
-    </a></div>
+        </div></div>
 </body>
-<footer><a href="https://github.com/DaanDeJager"> Mijn GitHub</a></footer>
+<footer><a href="https://github.com/DaanDeJager"> Mijn GitHub</a><a href="https://nl.linkedin.com/">LinkedIn</a><script src="js/script.js"></script><p id="demo"></p>
+
+    <script>
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d;
+    </script></footer>
 </html>

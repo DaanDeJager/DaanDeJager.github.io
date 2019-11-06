@@ -19,7 +19,7 @@
   }
   footer a {
     text-align: center;
-    padding-left: 650px;
+    padding-left: 420px;
   }
   a {
     padding-top: 24px;
@@ -98,7 +98,7 @@
     opacity: 0.8;
   }
   .om{
-    
+    padding: 10px;
     color: grey;
     background-color: black;
     box-shadow: 1px black;
@@ -131,12 +131,14 @@
 * {box-sizing: border-box}
 
 .container {
+  padding: 10px;
   width: 100%;
   background-color: black;
   opacity: .8;
 }
 
 .skills {
+  padding: 10px;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -146,4 +148,4 @@
 .html {width: 70%; background-color: red;}
 .css {width: 70%; background-color: red;}
 .js {width: 40%; background-color: red;}
-.design {width: 75%; background-color: red;}
+.design {width: 76%; background-color: red;}

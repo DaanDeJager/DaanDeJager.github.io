@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-color: grey;
@@ -18,7 +19,7 @@ div a {
 }
 footer a {
   text-align: center;
-  padding-left: 650px;
+  padding-left: 420px;
 }
 a {
   padding-top: 24px;
@@ -96,39 +97,58 @@ h4 {
   color: red;
   opacity: 0.8;
 }
-
-.mondriaan {
-    padding-left: 120px;
-  display: flex;
-
- 
-  width: 100%;
+.folio{
   
-}
-.mondriaan > #left,
-.mondriaan > #right {
+  color: grey;
+  background-color: black;
+  box-shadow: 1px black;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  left: 17%;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 
-  border-radius: 25px;
-}
-.text1{
-    display: block;
-    width: 200px;
-    padding-top: 20px;
 
 
-
-}
-.img5{
-    height:  168px;
-    width: 300px;
 
 
 
 
 }
-.portfolio{
-    display: flex;
-    justify-content: center;
+div li{
+
+
+
+
+}
+li a{
+  color: gray;    
+
+
+
+}
+.icon{
+  width: 175px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 70px;
+
+
+
+}
+.blue{
+  color: red;
+  opacity: 0.8;
+
+
+
+}
+button{
+  background-color: red;
 
 
 
